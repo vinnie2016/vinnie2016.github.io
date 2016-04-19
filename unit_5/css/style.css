@@ -1,1 +1,152 @@
-e
+@import url(https://fonts.googleapis.com/css?family=Paytone+One);
+@import url(https://fonts.googleapis.com/css?family=Voltaire);
+@import url(https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic);
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: rgb(0,170,255);
+	font-family: 'Merriweather', serif;
+	text-align: left;
+	font-size: 16px;  /* 1em = 16px */
+	line-height: 1.5em;
+
+}
+
+
+header {
+	
+	/* background-color:#35A67C;  */
+	 background-color: #FFED74;
+	/* padding: 1.5em; */
+	text-align: center;
+	border: 1px black solid;
+	padding: 20px;
+}
+h1 {
+	color: #910A33;
+	font-family: 'Paytone One', sans-serif;
+		font-size: 44px;
+}
+
+p, ul {
+	color: #910A33;
+	font-size: 1em;
+	/*  width: 45em;  */
+}
+
+a {
+	color: #blue;
+	text-decoration: none;
+	border-bottom:1px solid blue;
+	padding-bottom:2px;
+}
+/*
+nav {
+	margin-right: 1em;
+	text-align: center;
+	margin: 0 auto;
+}  */
+
+article {
+	background-color: #E89C6C;
+}
+section {
+	background-color: #FFE2B8;
+}
+nav a {
+	color: #ccc;
+	font-family: 'Voltaire', sans-serif;
+	font-size: 1.25em;
+	margin-right:12px;
+	text-align: center;
+	letter-spacing: 2px; 
+	font-weight:600;
+	text-decoration: none;
+	border-bottom:1px solid #ccc;
+	padding-bottom:2px;
+	background-color: #E8C66A;
+}
+
+hr {
+	border:none;
+	height: 3px;
+	background-color: #910A33;
+	width: 60em;
+}
+
+#slogan {
+	 font-style: italic;
+	 padding-top:1.25em;
+	 padding-bottom:1.25em;
+}
+ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+footer {
+	/* background-color: #ccc;  */
+	background-color:  #FF957E;
+	padding: 1.25em;
+	font-size: 14px;
+	text-align: center;
+}
+img {
+	display: block;
+	margin: 0 auto;
+}
+.mid{
+	position: relative;
+	width: 60em;
+	margin: 2em auto; 
+}
+
+.mid h2 {
+  font-family: 'Voltaire', sans-serif;
+  font-weight: 900;
+  color: white;
+  text-transform: uppercase;
+  margin: 0;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  font-size: 2rem;
+  transform: translate(-50%, -50%);
+}
+
+div:last-child div{
+	 font-family: 'Voltaire', sans-serif;
+	/* background: #097693; */
+	background-color:  #FFE2B8;
+	font-size: 1.5em;
+	top: 34.6152px !important;
+    left: 36.7348px !important;
+    width: 326.53px !important;
+    height: 200.77px !important;
+  /*  height: 231.77px !important;  */
+    margin: 0 !important;
+}
+
+/* div:last-child div{
+	background: #097693; 
+	color: white;
+	font-size: 18px;
+	top: 34.6152px !important;
+    left: 36.7348px !important;
+    width: 326.53px !important;
+    height: 231.77px !important; 
+    margin: 0 !important;
+}
+*/
+div:last-child div a{
+	 font-family: 'Voltaire', sans-serif;
+	font-size: 1.5em;  
+	position: relative;
+    bottom: 105px;
+  /* bottom: 175px; */
+    color: white;
+}
